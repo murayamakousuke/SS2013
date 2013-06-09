@@ -20,7 +20,7 @@ print "all: %d" % len(d)
 
 i = 0
 for k in sored_keys:
-    if i == 20:
+    if i == 12:
         break
     print k, ": ", d[k]
     i += 1
